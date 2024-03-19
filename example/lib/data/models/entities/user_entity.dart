@@ -7,7 +7,7 @@ class UserEntity extends SyncModel {
   final String email;
   final String dni;
   UserEntity({
-    required super.table,
+     super.table = 'users',
     required this.dni,
     required this.name,
     required this.email,
