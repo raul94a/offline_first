@@ -1,6 +1,7 @@
 library offline_first;
 
-export 'package:http/http.dart';
+
+export 'package:floor/floor.dart';
 export './connectivity/connectivity.dart';
 export './database/sync_database.dart';
 export './database/models/syn_model.dart';
